@@ -33,10 +33,9 @@ h1 span{
     font-weight: 700;
     line-height: 38px;
     display: block;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
 }
-p{
+.text p{
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
     line-height: 1.4;
@@ -59,16 +58,90 @@ a{
     display: flex;
     justify-content: flex-end;
     position: relative;
-
+    
 }
 .bg{
-    width: 450px;
+    width: 470px;
     height: 100%;
     background: linear-gradient(2.42deg, #f37335 -19.6%, #fbb731 100.79%, #fdc830 100.79%);
+    position:absolute;
+    right: -50px;
+    
 }
 img{
     width: 829px;
     position:absolute;
-    right: -200px;
+    right: -250px;
+}
+
+.promo{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.promo-left,
+.promo-right{
+    flex: 0 0 49%; 
+    color:#faf9f9;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 
 }
+
+.promo-left{
+    background-image: url(../image/promo-left.png);
+    padding: 116px 50px 116px 50px;
+}
+
+.promo-right{
+    background-image: url(../image/promo-right.png);
+    padding: 102px 50px;
+ 
+}
+
+.sale{
+    font-size: 14px;
+    font-weight: 900;
+    background: #f37335;
+    padding: 5px 20px;
+    border-radius: 28px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.cost{
+    font-size: 72px;
+    font-weight:900;
+    margin-bottom: 8px;
+
+}
+
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.promo-left .description{
+    max-width: 392px;
+   
+}
+
+.promo-right .description{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.free{
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-transform:capitalize;
+}
+    
+
+
+
